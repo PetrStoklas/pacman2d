@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.field {
+  width: 1020px;
+  height: 510px;
+  background-image: url('img/tile.png');
+  position: relative;
+}
+
+.pac {
+  position: absolute;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 65px;
+}
+
+.boy-active-light {
+  background-image: url('img/pacboy-active-light.png');
+  width: 85px;
+  height: 85px;
+}
+
+.closed {
+  background-image: url('img/pacboy-active-light.png');
+  background-position-x: 300%;
+  width: 85px;
+  height: 85px;
+}
+
+.left {
+  background-position-y: 300%;
+}
+
+.right {
+  background-position-y: 400%;
+}
+
+.down {
+  background-position-y: 200%
+}
+
+.up {
+  background-position-y: 100%;
+}
